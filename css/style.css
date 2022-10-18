@@ -174,3 +174,84 @@ color: #FFAE2B;
   align-items: center;
   gap: 20px;
 }
+
+.pic{
+  background: url(../img/bg2.png) no-repeat center/cover;
+  height: 573px;
+}
+
+.services{
+padding: 38px 0 120px;
+background: #181511;
+}
+
+.service__itself{
+  padding: 61px 61px 76px;
+  border: 1px solid #4B4136;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.service-h3{
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 40px;
+  color: #FFAE2B;
+  margin-top: 20px;
+}
+
+.service-h4{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ACA592;
+  margin: 10px 0 5px;
+}
+
+.service-p{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 26px;
+  color: #ACA592;
+}
+.service-pic1{
+  position: absolute;
+  bottom: 21px;
+}
+
+.service-pic2{
+  position: relative;
+}
+
+.service__pics{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6.66px;
+}
+
+.services__wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__itself:nth-of-type(2) .service__pics .service-pic1{
+  left: 27px;
+  top: 11px;
+}
+
+.service__itself:nth-of-type(3) .service__pics .service-pic1{
+  top: 27px;
+}
+
+.service__itself:nth-of-type(2) {
+  margin-top: 15px;
+}
+
+.service__itself:nth-of-type(3){
+  margin-top: 40px;
+}

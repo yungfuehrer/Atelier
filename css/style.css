@@ -6,9 +6,80 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  border-radius: 0px;
 }
 
 body{
   font-family: 'Old Standard TT', sans-serif;
   color:  #FFFFFF;
+}
+
+.logo{
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #FFAE2B;
+}
+
+.header{
+  background: #181511;
+  padding: 14px 120px;
+}
+
+.container{
+  padding: 120px 120px 0;
+}
+
+.header__wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  padding-right: 455px;
+}
+
+.link__list{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ACA592;
+  transition: 0.3s;
+  margin-right: 40px;
+}
+
+.link__list:last-child{
+  margin-right: 0;
+}
+.link__list:first-child{
+  margin: 0 28px 42px 0;
+}
+
+.link__list:hover{
+  color: #FFAE2B;
+}
+
+
+.btn{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #FFAE2B;
+  border-radius: 0px;
+  padding: 15px 25px;
+  color: #FFAE2B;
+  background: transparent;
+  transition: 0.3s;
+  font-family: inherit;
+}
+
+.btn:hover{
+  background: #FFAE2B;
+  color: #181511;
 }

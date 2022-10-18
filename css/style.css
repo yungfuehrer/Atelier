@@ -63,7 +63,6 @@ color: #FFAE2B;
   color: #FFAE2B;
 }
 
-
 .btn{
   font-weight: 400;
   font-size: 11px;
@@ -77,9 +76,42 @@ color: #FFAE2B;
   background: transparent;
   transition: 0.3s;
   font-family: inherit;
+  cursor: pointer;
 }
 
 .btn:hover{
   background: #FFAE2B;
   color: #181511;
+}
+
+.banner{
+  padding-bottom: 180px;
+  background: url(../img/banner_bg.png) no-repeat center/cover;
+}
+
+.banner-p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFAE2B;
+}
+
+.banner-h1{
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  margin: 15px 0 35px;
+}
+
+.banner__wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }

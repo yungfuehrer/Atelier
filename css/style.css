@@ -181,8 +181,8 @@ color: #FFAE2B;
 }
 
 .services{
-padding: 38px 0 120px;
-background: #181511;
+  padding: 38px 0 0;
+  background: #181511;
 }
 
 .service__itself{
@@ -254,4 +254,59 @@ background: #181511;
 
 .service__itself:nth-of-type(3){
   margin-top: 40px;
+}
+
+.instagram{
+  background: #181511;
+}
+
+.instagram__wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #4B4136;
+  border-bottom: 1px solid #4B4136;
+  padding: 21px 0;
+  gap: 1px;
+}
+
+.instagram-pic, .messy-instagram{
+  position: relative;
+}
+
+.fa-instagram{
+  position: absolute;
+  top: -33px;
+  left: 94px;
+  font-size: 50px;
+}
+
+.messy-instagram .fa-instagram{
+  left: 75px;
+  top: 25px;
+  font-size: 200px;
+}
+
+.messy-instagram{
+  padding: 132px 103px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+}
+
+.insta-h{
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FFAE2B;
+  position: absolute;
+  left: 42px;
+  top: 53px;
+}
+
+.messy-instagram .btn{
+  background: #FFAE2B;
+  color: #181511;
 }
